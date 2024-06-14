@@ -27,20 +27,20 @@ module.exports = {
         "newlines-between": "always",
       },
     ],
-    "unicorn/filename-case": [
-      "error",
-      {
-        cases: {
-          camelCase: true,
-          pascalCase: true,
-        },
-      },
-    ],
+    // "unicorn/filename-case": [
+    //   "error",
+    //   {
+    //     cases: {
+    //       camelCase: true,
+    //       pascalCase: true,
+    //     },
+    //   },
+    // ],
     "react/jsx-no-target-blank": "off",
-    "react-refresh/only-export-components": [
-      "warn",
-      { allowConstantExport: true },
-    ],
+    // "react-refresh/only-export-components": [
+    //   "warn",
+    //   { allowConstantExport: true },
+    // ],
     eqeqeq: ["error"],
     "no-duplicate-imports": [
       "warn",
@@ -48,14 +48,14 @@ module.exports = {
         includeExports: true,
       },
     ],
-    camelcase: ["warn"],
+    // camelcase: ["warn"],
     "no-var": ["error"],
     "no-console": ["warn"],
     semi: ["error", "always"],
     quotes: ["error", "double"],
     "arrow-spacing": ["error"],
     "no-undef": ["error"],
-    "no-unused-vars": ["error"],
+    // "no-unused-vars": ["error"],
     "block-scoped-var": ["error"],
     "no-regex-spaces": ["error"],
     "no-multi-spaces": ["error"],
